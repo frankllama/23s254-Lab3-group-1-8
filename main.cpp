@@ -4,7 +4,9 @@
 int main(int argc, char *argv[])
 {
   try {
-    // TODO: last team member
+    Reader readNames(argv[1]);
+    readNames.getNames();
+    readNames.print();
   } catch (std::logic_error err) {
     std::string file;
 
