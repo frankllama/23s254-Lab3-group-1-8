@@ -1,4 +1,4 @@
-#include "reader.h"
+#include "Reader.h"
 
 void Reader::getNames() 
 {
